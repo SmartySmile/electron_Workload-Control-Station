@@ -1,0 +1,80 @@
+Code-$@electron7:~
+$ dir
+Bilder			      jhalfs			      Videos
+cloudflared.deb		      Live-usb-storage		      Vorlagen
+connectOneDrive.txt	      Musik			      xONE-DRIVE-main.man
+Dokumente		      Öffentlich		      xTest-crm
+Downloads		      PlayOnLinux's\ virtual\ drives
+electronJS-mainPreset.tar.gz  Schreibtisch
+Code-$@electron7:~
+$ cd xTest-crm
+Code-$@electron7:~/xTest-crm
+$ dir
+con1.svg	      index.html  originalForge  preload.js   styles.css
+gitTokPersAccess.txt  main.js	  package.json	 renderer.js
+Code-$@electron7:~/xTest-crm
+$ ./main.js
+bash: ./main.js: Keine Berechtigung
+Code-$@electron7:~/xTest-crm
+$ chmod +x main.js
+Code-$@electron7:~/xTest-crm
+$ ./main.js
+./main.js: Zeile 1: //: Ist ein Verzeichnis
+./main.js: Zeile 2: Syntaxfehler beim unerwarteten Symbol »(«
+./main.js: Zeile 2: `const { app, BrowserWindow } = require('electron')'
+Code-$@electron7:~/xTest-crm
+$ node main.js
+node:internal/modules/cjs/loader:1042
+  throw err;
+  ^
+
+Error: Cannot find module 'electron'
+Require stack:
+- /home/Code-$/xTest-crm/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    
+    
+    
+--->>>at Object.<anonymous> (/home/Code-$/xTest-crm/main.js:2:32)<<<---
+    
+    
+    
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/Code-$/xTest-crm/main.js' ]
+}
+
+Node.js v18.13.0
+Code-$@electron7:~/xTest-crm
+$ node main.js
+node:internal/modules/cjs/loader:1042
+  throw err;
+  ^
+
+Error: Cannot find module 'electron'
+Require stack:
+- /home/Code-$/xTest-crm/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1039:15)
+    at Module._load (node:internal/modules/cjs/loader:885:27)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (/home/Code-$/xTest-crm/main.js:2:32)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/Code-$/xTest-crm/main.js' ]
+}
+
+Node.js v18.13.0
+Code-$@electron7:~/xTest-crm
+$ 
