@@ -1,0 +1,24 @@
+/* styles.css */
+body {
+    text-align: center;
+    background-color: #f8db70;
+    font-family: 'Roboto', sans-serif;
+}
+
+#center {
+  border-style: groove;
+    border-width: 8px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+a {
+padding-left: 2%;
+padding-right: 2%;
+padding-bottom: 4px;
+padding-top: 4px;
+font-size: 64px;
+  border-style: groove;
+    border-width: 8px;
+}
+/* Add styles here to customize the appearance of your app */

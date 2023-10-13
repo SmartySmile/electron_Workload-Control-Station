@@ -1,0 +1,16 @@
+{
+  "name": "noiseless-cup-broadcast-a57uz",
+  "productName": "noiseless-cup-broadcast-a57uz",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Code-$",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "26.2.2"
+  }
+}

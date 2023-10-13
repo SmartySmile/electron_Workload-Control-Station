@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>mainAPP</title>
+    <script>
+let myWindow;
+
+function openWin() {
+  myWindow = window.open("", "", "width=200,height=100");
+}
+
+function closeWin() {
+  myWindow.close();
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="352" height="240" playbackorder="forwardonly">
+    
+  <ellipse cx="98.5" cy="17.5" rx="20.5" ry="17.5" fill="blue" stroke="black" 
+           transform="translate(9 252) translate(3 -296)">
+    <animateTransform attributeName="transform" begin="0s" dur="2s" fill="remove"
+                      calcMode="linear" type="translate" additive="sum"
+                      from="0 0" to="-18 305"/>
+    <discard begin="2s"/>
+  </ellipse>
+  
+  <rect x="182" y="-39" width="39" height="30" fill="red" stroke="black"
+        transform="translate(30 301)">
+    <animateTransform attributeName="transform" begin="1s" dur="2s" fill="remove"
+                      calcMode="linear" type="translate" additive="sum"
+                      from="0 0" to="-26 -304"/>
+    <discard begin="3s"/>
+  </rect>
+  
+  <polygon points="-66,83.5814 -43,123.419 -89,123.419" fill="green" stroke="black" 
+           transform="matrix(1 0 0 1.1798 0 -18.6096)">
+    <animateTransform attributeName="transform" begin="2s" dur="2s"
+                      fill="remove" calcMode="linear" type="translate" additive="sum"
+                      from="0 0" to="460 63.5699"/>
+    <discard begin="4s"/>
+  </polygon>
+</svg>
+</br></br>
+<a href="https://ahangaride.de/crm/">CRM</a>
+</br></br></br>
+<a href="https://ahangaride.de/pollecconomy/">pollECCONOMY</a>
+</br></br></br>
+<a href="https://ahangaride.de/mentaloptimizer">mentalOPTIMIZER</a>
+</br></br>
+      <svg xmlns="http://www.w3.org/2000/svg" width="352" height="240" playbackorder="forwardonly">  
+  <ellipse cx="98.5" cy="17.5" rx="20.5" ry="17.5" fill="blue" stroke="black" 
+           transform="translate(9 252) translate(3 -296)">
+    <animateTransform attributeName="transform" begin="0s" dur="2s" fill="remove"
+                      calcMode="linear" type="translate" additive="sum"
+                      from="0 0" to="-18 305"/>
+    <discard begin="2s"/>
+  </ellipse>
+  
+  <rect x="182" y="-39" width="39" height="30" fill="red" stroke="black"
+        transform="translate(30 301)">
+    <animateTransform attributeName="transform" begin="1s" dur="2s" fill="remove"
+                      calcMode="linear" type="translate" additive="sum"
+                      from="0 0" to="-26 -304"/>
+    <discard begin="3s"/>
+  </rect>
+  <polygon points="-66,83.5814 -43,123.419 -89,123.419" fill="green" stroke="black" 
+           transform="matrix(1 0 0 1.1798 0 -18.6096)">
+    <animateTransform attributeName="transform" begin="2s" dur="2s"
+                      fill="remove" calcMode="linear" type="translate" additive="sum"
+                      from="0 0" to="460 63.5699"/>
+    <discard begin="4s"/>
+  </polygon>
+</svg>
+</br></br>
+<p>For Quit press Ctrl and Q</p>
+</br></br>
+</br>
+</div>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
+  </body>
+</html>
